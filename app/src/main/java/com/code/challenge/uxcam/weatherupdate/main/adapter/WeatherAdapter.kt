@@ -49,7 +49,6 @@ class WeatherAdapter(
         RecyclerView.ViewHolder(binding.root) {
         @SuppressLint("SetTextI18n")
         fun bind(data: WeatherResponse) {
-            Log.d("DataViewHolder", "bind: ---- model Data---- ${data}")
             val temp = if (data.main?.temp.toString().contains("."))
                 data.main?.temp.toString().split(".")[0]
             else
