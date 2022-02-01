@@ -43,3 +43,6 @@ https://github.com/dilippaudyal/WeatherUpdate.git
 Step 2:
 Import project from local storage.
 
+Step 3: 
+When the gradle build and indexing is done, click the **Run** button and run it on an emulator/physical device.
+
