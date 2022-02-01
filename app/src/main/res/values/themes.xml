@@ -1,0 +1,56 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.WeatherUpdate" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/app_color</item>
+        <item name="colorPrimaryVariant">@color/app_color</item>
+        <item name="colorOnPrimary">@color/app_color</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <style name="textStyleSubtitle2SemiBold" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="fontFamily">@font/font_noto_sans_semi_bold</item>
+        <item name="font">@font/font_noto_sans_semi_bold</item>
+        <item name="android:textSize">90dp</item>
+        <item name="fontStyle">normal</item>
+        <item name="android:textColor">@color/semi_white</item>
+    </style>
+
+
+    <style name="textStyleOverline" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="fontFamily">@font/font_noto_sans_regular</item>
+        <item name="font">@font/font_noto_sans_regular</item>
+        <item name="android:textSize">10sp</item>
+        <item name="fontStyle">normal</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="textStyleOverlineSemiWhite" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="fontFamily">@font/font_noto_sans_regular</item>
+        <item name="font">@font/font_noto_sans_regular</item>
+        <item name="android:textSize">10dp</item>
+        <item name="fontStyle">normal</item>
+        <item name="android:textColor">@color/semi_white</item>
+    </style>
+
+    <style name="textStyleRegularOverline" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="fontFamily">@font/font_noto_sans_regular</item>
+        <item name="font">@font/font_noto_sans_regular</item>
+        <item name="android:textSize">13dp</item>
+        <item name="fontStyle">normal</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="textStyleSubtitleSemiBold" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="fontFamily">@font/font_noto_sans_semi_bold</item>
+        <item name="font">@font/font_noto_sans_semi_bold</item>
+        <item name="android:textSize">13sp</item>
+        <item name="fontStyle">normal</item>
+        <item name="android:textColor">@color/semi_white</item>
+    </style>
+
+</resources>

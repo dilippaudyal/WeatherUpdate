@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WeatherUpdate</string>
+    <string name="degree_celsius">\u2103</string>
+    <string name="real_feel">Real Feel</string>
+    <string name="humidity">Humidity</string>
+    <string name="chances_of_rain">Chance of rain</string>
+    <string name="pressure">Pressure</string>
+    <string name="wind_speen">Wind Speed</string>
+    <string name="uv_index">UV Index</string>
+    <string name="temperature_min">Temperature min</string>
+    <string name="temperature_max">Temperature max</string>
+</resources>
