@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.code.challenge.uxcam.weatherupdate">
+    package="com.code.challenge.wateher.weatherupdate">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WeatherUpdate">
         <activity
-            android:name=".main.view.MainActivity"
+            android:name="com.code.challenge.wateher.weatherupdate.main.view.MainActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan">
